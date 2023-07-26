@@ -1,4 +1,4 @@
-# Deploy a Production Ready Kubernetes Cluster with KubeSpray in 6 Steps:
+# Deploy a Production Ready Kube Cluster with KubeSpray in 6 Steps:
 
 
 
