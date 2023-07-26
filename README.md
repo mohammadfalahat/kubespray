@@ -49,6 +49,19 @@ ansible --version
 
 Take a copy of inventory/sample and rename it to inventory/yourClusterName.
 
+
+delete everything in group_vars/all just keep:
+
+        # all.yml
+        # containerd.yml
+        # coreos.yml
+        # etcd.yml
+
+delete everything in group_vars/k8s_cluster just keep:
+
+        # k8s-cluster.yml
+        # k8s-net-calico.yml
+
 config inventory/yourClusterName/group_vars/all/all.ini
 
         # External LB
@@ -64,19 +77,6 @@ config inventory/yourClusterName/group_vars/k8s_cluster/k8s_cluster.ini
         # optionally for kube deamons
         # optionally for OS system deamons
         # LB SAN ip's, vip and hostname in: supplementry address in ssl keys
-
-delete everything in group_vars/all just keep:
-
-        # all.yml
-        # containerd.yml
-        # coreos.yml
-        # etcd.yml
-
-delete everything in group_vars/k8s_cluster just keep:
-
-        # k8s-cluster.yml
-        # k8s-net-calico.yml
-
 
 ## 5. Configure LoadBalancers
 
