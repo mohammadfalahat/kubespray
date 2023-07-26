@@ -1,4 +1,4 @@
-# Lunch a kubernetes cluster with KubeSpray in 6 step:
+# Deploy a Production Ready Kubernetes Cluster with KubeSpray in 6 Steps:
 
 
 
