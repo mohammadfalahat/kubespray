@@ -10,7 +10,7 @@ check kubespray github here: https://github.com/kubernetes-sigs/kubespray
 set latest version tag in variable KUBESPRAY_VERSION.
 
 ```
-KUBESPRAY_VERSION=v2.22.1
+KUBESPRAY_VERSION=v2.23.0
 cd /opt
 git clone https://github.com/kubernetes-sigs/kubespray.git
 cd kubespray
@@ -39,7 +39,7 @@ ssh-copy-id users@nodes
 ```
 apt install -y python3-pip 
 cd /opt/kubespray
-pip install -r requirements-2.12.txt
+pip install -r requirements.txt
 ansible --version
 ```
 
