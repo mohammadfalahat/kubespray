@@ -126,7 +126,7 @@ ansible-playbook -i inventory/yourClusterName/inventory.ini playbooks/facts.yml
 ansible-playbook -i inventory/yourClusterName/inventory.ini playbooks/scale.yml --limit=worker2
 ```
 
-## Reset Cluster Completely
+## ❌ Reset Cluster Completely
 
 reset and remove kubernetes by running:
 
