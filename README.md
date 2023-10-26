@@ -106,12 +106,12 @@ validate HA-PROXY config before restarting it:
 
 run ansible ping in bastion:
 ```
-ansible all -i inventory/shoniz/inventory.ini -m ping
+ansible all -i inventory/yourClusterName/inventory.ini -m ping
 ```
 
 Let's go to install cluster with kubespray ansible:
 ```
-ansible-playbook -i inventory/shoniz/inventory.ini cluster.yml
+ansible-playbook -i inventory/yourClusterName/inventory.ini cluster.yml
 ```
 
 
@@ -122,8 +122,8 @@ change your configs in inventory.ini  and yml files
 for example you added worker2:
 
 ```
-ansible-playbook -i inventory/shoniz/inventory.ini playbooks/facts.yml
-ansible-playbook -i inventory/shoniz/inventory.ini playbooks/scale.yml --limit=worker2
+ansible-playbook -i inventory/yourClusterName/inventory.ini playbooks/facts.yml
+ansible-playbook -i inventory/yourClusterName/inventory.ini playbooks/scale.yml --limit=worker2
 ```
 
 
