@@ -62,7 +62,7 @@ delete everything in group_vars/k8s_cluster just keep:
         # k8s-cluster.yml
         # k8s-net-calico.yml
 
-config inventory/yourClusterName/group_vars/all/all.ini
+config inventory/yourClusterName/group_vars/all/all.yml
 
         # External LB
         # Internal loadbalancers
@@ -70,7 +70,7 @@ config inventory/yourClusterName/group_vars/all/all.ini
         # http_proxy and https_proxy and no_proxy
         # download container
 
-config inventory/yourClusterName/group_vars/k8s_cluster/k8s_cluster.ini
+config inventory/yourClusterName/group_vars/k8s_cluster/k8s_cluster.yml
 
         # kube_version
         # kube_proxy_mode
