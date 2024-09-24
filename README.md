@@ -10,7 +10,7 @@ check kubespray github here: https://github.com/kubernetes-sigs/kubespray
 set latest version tag in variable KUBESPRAY_VERSION.
 
 ```
-KUBESPRAY_VERSION=v2.23.1
+KUBESPRAY_VERSION=v2.26.0
 cd /opt
 git clone https://github.com/kubernetes-sigs/kubespray.git
 cd kubespray
