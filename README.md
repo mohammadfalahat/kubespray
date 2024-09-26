@@ -76,7 +76,7 @@ config inventory/yourClusterName/group_vars/k8s_cluster/k8s_cluster.yml
         # kube_proxy_mode
         # optionally for kube deamons
         # optionally for OS system deamons
-        # LB SAN ip's, vip and hostname in: supplementry address in ssl keys
+        # LB SAN ip's, vip and hostname in: supplementary_addresses_in_ssl_keys
 
 ## 5. Configure LoadBalancers
 
